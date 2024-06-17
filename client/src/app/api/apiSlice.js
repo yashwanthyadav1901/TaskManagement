@@ -2,7 +2,11 @@ import { createApi, fetchBaseQuery } from "@reduxjs/toolkit/query/react";
 import { setCredentials } from "../../features/auth/authSlice";
 
 const baseQuery = fetchBaseQuery({
+<<<<<<< HEAD
   baseUrl: "https://taskmanagement-backend-n2rs.onrender.com",
+=======
+  baseUrl: "https://taskmanagement-backend-n2rs.onrender.com",
+>>>>>>> d019be68b439ceeda7c796e16f910d89cdc1a175
   credentials: "include",
   prepareHeaders: (headers, { getState }) => {
     const token = getState().auth.token;
