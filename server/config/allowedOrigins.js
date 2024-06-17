@@ -1,6 +1,3 @@
-const allowedOrigins = [
-  "http://localhost:3000",
-  "https://technotes.onrender.com",
-];
+const allowedOrigins = ["https://task-management-neon-one.vercel.app/"];
 
 module.exports = allowedOrigins;
