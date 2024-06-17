@@ -42,7 +42,7 @@ const PersistLogin = () => {
     content = (
       <p className="errmsg">
         {`${error?.data?.message} - `}
-        <Navigate to="/login" replace />
+        <Navigate to="/" replace />
       </p>
     );
   } else if (isSuccess && trueSuccess) {
